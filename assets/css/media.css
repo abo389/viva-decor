@@ -1,0 +1,254 @@
+@media (max-width: 1245px)
+{
+
+  html
+  {
+    font-size: 16px;
+  }
+
+  .design__image,
+  .design__content,
+  .dream__content,
+  .dream__image,
+  .testimonials__content,
+  .subscribe
+  {
+    width: 80%;
+  }
+
+  .hero__images,
+  .services__title::before,
+  .testimonials__image,
+  .dream__content--list-item:not(:last-child)::before
+  {
+    display: none;
+  }
+
+  .hero__content
+  {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+
+  .services__title,
+  .design__content--title,
+  .dream__content--title
+  {
+    text-align: center;
+  }
+
+  .services__items
+  {
+    flex-direction: column;
+  }
+
+  .services__item
+  {
+    align-items: center;
+  }
+
+  .services__item--title
+  {
+    font-size: 2rem;
+  }
+
+  .services__item--description
+  {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .design
+  {
+    flex-direction: column;
+  }
+
+  .dream
+  {
+    flex-direction: column-reverse;
+  }
+
+  .testimonials
+  {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .testimonials__arrows
+  {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .testimonials__content--title
+  {
+    text-align: center;
+  }
+
+  .testimonials__content--list
+  {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .testimonials__content--list--card
+  {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .testimonials__content--list
+  {
+    bottom: 0;
+  }
+
+  .footer__content
+  {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .footer__content--logo
+  {
+    width: 30%;
+    align-items: center;
+  }
+
+  .footer__content--logo--text
+  {
+    text-align: center;
+  }
+
+  .footer__content--links
+  {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+
+}
+
+
+@media (max-width: 768px)
+{
+
+  html
+  {
+    font-size: 10px;
+  }
+
+  .header__menu-icon
+  {
+    display: block;
+  }
+
+  .header__menu-list
+  {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .header__menu-item {
+    font-size: 1.5rem;
+  }
+
+  .header__menu-list.active
+  {
+    opacity: 1;
+  }
+
+  .header__sign-up-button
+  {
+    display: none;
+  }
+
+  .hero__scroll
+  {
+    display: none;
+  }
+
+  .hero__content--title
+  {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .hero__content--description
+  {
+    text-align: center;
+  }
+
+  .services__item--description
+  {
+    width: 90%;
+  }
+
+  .design__image,
+  .dream__image
+  {
+    width: 100%;
+  }
+
+  .subscribe__title
+  {
+    font-size: 2.5rem;
+  }
+
+  .subscribe__description
+  {
+    font-size: 1.4rem;
+  }
+
+  .footer__content--logo
+  {
+    width: 50%;
+    align-items: center;
+  }
+
+  .footer__content--links
+  {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  .footer__content--links--list
+  {
+    width: 50%;
+    text-align: center;
+  }
+
+
+  .design__image,
+  .design__content,
+  .dream__content,
+  .dream__image,
+  .testimonials__content,
+  .subscribe
+  {
+    width: 100%;
+  }
+
+
+}
